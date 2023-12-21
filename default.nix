@@ -17,6 +17,7 @@
   # TODO: add tests
   wemeet = pkgs.libsForQt5.callPackage ./pkgs/wemeet { };
   ttf-ms-win10 = pkgs.callPackage ./pkgs/ttf-ms-win10 { };
+  ttf-wps-fonts = pkgs.callPackage ./pkgs/ttf-wps-fonts { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
